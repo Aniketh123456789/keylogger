@@ -1,0 +1,92 @@
+/* Dark theme with neon glow effects */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: #1a1a2e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.3);
+}
+
+.title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0ef;
+    text-shadow: 0px 0px 10px rgba(0, 238, 255, 0.8);
+}
+
+/* Button Styles */
+.button-group {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.start {
+    background: #0ef;
+    color: #000;
+    box-shadow: 0px 0px 10px rgba(0, 238, 255, 0.8);
+}
+
+.stop {
+    background: #ff3860;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(255, 56, 96, 0.8);
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* Log Container */
+.log-container {
+    background: #0d0d1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: left;
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.3);
+}
+
+.log-container h2 {
+    margin-bottom: 10px;
+    color: #0ef;
+}
+
+pre {
+    background: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}
