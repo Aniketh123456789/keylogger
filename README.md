@@ -17,7 +17,7 @@ Ethical Keylogger Dashboard
 🔹 Installation & Setup
 
 📌 1. Clone the Repository
-git clone https://github.com/your-username/ethical-keylogger.git
+git clone https://github.com/Aniketh123456789/ethical-keylogger.git
 cd ethical-keylogger
 📌 2. Install Dependencies
 pip install flask pynput
